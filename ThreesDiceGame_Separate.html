@@ -1,0 +1,58 @@
+<!-- 
+Threes Dice Game
+By stringzzz, Ghostwarez Co.
+04-21-2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threes Dice Game</title>
+    <link rel="stylesheet" href="ThreesDiceGame_Separate.css" />
+    <script src="ThreesDiceGame_Separate.js"></script>
+  </head>
+  
+  <body>
+    <div id="game-box">
+    
+      <div id="players-boxes">
+      
+        <div id="player-box">
+          <p class="player-info">Player</p>
+          <p class="player-info" id="player-credits">Credits: 10</p>
+          <p id="player-score">Score: ?</p>
+          <div id="pdice">
+            <img id="diceA" class="diceImages" src="pdice1.png" alt="" />
+            <img id="diceB" class="diceImages" src="pdice1.png" alt="" />
+          </div>
+        </div>
+      
+        <div id="com-box">
+          <p class="player-info">Computer</p>
+          <p class="player-info" id="com-credits">Credits: 10</p>
+          <p id="com-score">Score: ?</p>
+          <div id="cdice">
+            <img id="cdiceA" class="diceImages" src="cdice1.png" alt="" />
+            <img id="cdiceB" class="diceImages" src="cdice1.png" alt="" />
+          </div>
+        </div>
+        
+      </div>
+    
+      <div id="output-and-buttons">
+        <p id="text-output">Click 'Start Game' to start the game</p>
+        <div id="buttonBox">
+          <button class="buttons" onclick="startGame();">Start Game</button>
+        </div>
+      </div>
+      
+      <button id="rule-button" onclick="showRules();">Show Rules</button>
+      <p id="rule-box"></p>
+      
+    </div>
+    
+  </body>
+  
+</html>

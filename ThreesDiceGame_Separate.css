@@ -1,0 +1,85 @@
+/*
+Threes Dice Game
+By stringzzz, Ghostwarez Co.
+04-21-2023
+*/
+
+#game-box {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid RGB(100, 200, 255);
+	background-color: RGB(15, 80, 255);
+	font-size: 1vw;
+	padding: 5% 0;
+	padding-bottom: 2%;
+}
+
+#players-boxes {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.player-info {
+	margin-bottom: 0;
+}
+
+#player-box, #com-box {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5%;
+}
+
+#player-box {
+	background-color: RGB(65, 180, 255);
+	border: 1px solid blue;
+}
+
+#com-box {
+	background-color: RGB(255, 100, 100);
+	border: 1px solid red;
+}
+
+#pdice, #cdice, #buttonBox {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.diceImages {
+	width: 40%;
+}
+
+#output-and-buttons {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttons {
+	font-size: 2vw;
+	border: 3px solid RGB(0, 50, 180);
+	background-color: RGB(50, 150, 255);
+}
+
+#rule-button {
+	margin-top: 7%;
+	font-size: 1vw;
+	border: 2px solid RGB(0, 50, 180);
+	background-color: RGB(50, 150, 255);
+	margin-bottom: 3%;
+}
+
+#rule-box {
+	background-color: RGB(60, 180, 255);
+	font-size: 0.75vw;
+	margin: 0 5%;
+	padding: 5%;
+}
